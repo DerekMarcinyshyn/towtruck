@@ -2,10 +2,9 @@
 [Mozilla Labs Tow Truck](http://towtruck.mozillalabs.com/)
 
 Version: 1.0
+
 License: GPLv2
 
 ##Description
 
-Tow Truck is collaboration made easy. Connect with some to share in your WordPress backend or frontend site and work, share, help.
-
-More features to come.
+This is a WordPress plugin which loads the Mozilla Lab Tow Truck collaboration tool. Connect and share in your WordPress backend or frontend site and demonstrate, work, share, help, chat.
