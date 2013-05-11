@@ -5,7 +5,7 @@ Plugin URI: https://derekmarcinyshyn.github.com/towtruck
 Description: <a href="http://towtruck.mozillalabs.com/">Mozilla Labs Tow Truck</a> collaboration made easy.
 Author: Derek Marcinyshyn
 Author URI: http://derek.marcinyshyn.com
-Version: 1.0
+Version: 1.1
 License: GPLv2
 
 This program is free software; you can redistribute it and/or
@@ -43,8 +43,8 @@ function add_tow_truck_button() {
     global $wp_admin_bar;
 
     if ( is_admin_bar_showing() ) {
-        $meta = array( 'onclick' => 'TowTruck(); return false;' );
-        $wp_admin_bar->add_menu( array( 'id' => 'tow_truck', 'title' => __( 'Call for Help', 'towtruck'), 'href' => "#", 'meta' => $meta ) );
+        $meta = array( 'onclick' => 'TowTruck(this); return false;' );
+        $wp_admin_bar->add_menu( array( 'id' => 'tow-truck', 'title' => __( 'Start TowTruck', 'towtruck'), 'href' => "#", 'meta' => $meta ) );
     }
 }
 
